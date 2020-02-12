@@ -20,6 +20,7 @@ public class CompanyEntity {
     private String name;
     private String cif;
     private String test;
+    private String test3;
     private String test22;
 
 
