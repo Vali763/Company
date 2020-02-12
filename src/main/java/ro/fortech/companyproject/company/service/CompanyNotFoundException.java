@@ -1,4 +1,5 @@
 package ro.fortech.companyproject.company.service;
 
-public class CompanyNotFoundException {
+public class CompanyNotFoundException extends RuntimeException {
+    public CompanyNotFoundException(String id){super(id);}
 }

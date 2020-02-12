@@ -1,11 +1,9 @@
 package ro.fortech.companyproject.company.dao;
 
-import lombok.Data;
 import ro.fortech.companyproject.company.service.Company;
-
+import lombok.Data;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.awt.*;
 
 @Data
 @Entity
@@ -26,7 +24,9 @@ public class CompanyEntity {
         pojo.setName(name);
         pojo.setCif(cif);
         return pojo;
-        //"adaasasfas"
-
+    }
+    public CompanyEntity update(Company pojo){
+        this.name=pojo.getName();
+        this.cif = pojo.getCif();
     }
 }

@@ -1,6 +1,7 @@
 package ro.fortech.companyproject.company.service;
 
 import org.springframework.stereotype.Service;
+import ro.fortech.companyproject.company.dao.CompanyEntity;
 import ro.fortech.companyproject.company.dao.CompanyRepository;
 
 import java.util.List;
