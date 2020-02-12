@@ -14,6 +14,7 @@ public class CompanyEntity {
     @GeneratedValue
     private Integer id;
 
+
     @NotNull
     @Column(name="name",unique = true,nullable = false)
     private String name;
