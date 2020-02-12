@@ -19,6 +19,9 @@ public class CompanyEntity {
     @Column(name="name",unique = true,nullable = false)
     private String name;
     private String cif;
+    private String test;
+    private String test2;
+
 
     public Company toPojo(){
         Company pojo = new Company();
