@@ -20,7 +20,7 @@ public class CompanyEntity {
     private String name;
     private String cif;
     private String test;
-    private String test2;
+    private String test22;
 
 
     public Company toPojo(){
